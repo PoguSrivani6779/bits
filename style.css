@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    border: solid 1px;
+    width: 320px;
+    position: fixed;
+    height: 100%;
+    background-color: lightcoral;
+    padding-top: 80px;
+}
+#text1{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+#text2{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 150px;
+    margin-left: 50px;
+    background-color: aquamarine;
+    text-align: center;
+   
+    line-height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+ul li a{
+color: black;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+}
+ul li:hover{
+    background-color: darkmagenta;
+}
+#Home{
+    border: solid 1px;
+    height: 630px;
+    background-color: whitesmoke;
+    padding-left: 330px;
+}
+#text1{
+    color: black;
+    font-size: bold;
+}
+#text2{
+    color: black;
+    font-size: bold;
+}
+#text3{
+    font-size: 20px;
+}
+#bt1{
+    color: blueviolet;
+    width: 200px;
+    background-color: rgb(119, 158, 158);
+    border-radius: 20px;
+    height: 50px;
+    font-weight: bold;
+}
+#About{
+    border: solid 1px;
+    height: 630px;
+    background-color: whitesmoke;
+    padding-left: 335px;
+}
+#AboutMe{
+    font-size: 50px;
+    color: blue;
+}
+html{
+    scroll-behavior: Home;
+}
